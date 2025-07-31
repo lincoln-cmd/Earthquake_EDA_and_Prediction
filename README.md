@@ -66,7 +66,7 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 📦 Earthquake EDA & Prediction
 ├── frontend/
 ├── backend/
-├── docs
+├── Documentation_and_Visualizations
 ├── tests/
 ├── .env.example
 └── README.md
