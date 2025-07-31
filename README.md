@@ -26,6 +26,7 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 
 
 # 3. 실행
+```
 
 ---
 
