@@ -105,7 +105,7 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 
 | 이름  | 역할       | GitHub                                 |
 | --- | -------- | -------------------------------------- |
-| 김동훈 | 팀장 / 백엔드 / 프론트엔드 / 데이터분석 / AI 모델링| [@lincoln](https://github.com/lincoln-cmd)       |
+| 김동훈 | 팀장 / 백엔드 / 프론트엔드 / 데이터분석 / AI 모델링 / 연구 / 문서화 | [@lincoln](https://github.com/lincoln-cmd)       |
 |  |     |  |
 
 ---
