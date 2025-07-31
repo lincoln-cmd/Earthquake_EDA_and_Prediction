@@ -62,7 +62,15 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 ---
 
 ## 📂 폴더 구조 (Project Structure)
-``` 📦 Earthquake_EDA_and_Prediction ├── frontend/ ├── backend/ ├── docs/ ├── tests/ ├── .env.example └── README.md ```
+```
+📦 Earthquake EDA & Prediction
+├── frontend/
+├── backend/
+├── docs
+├── tests/
+├── .env.example
+└── README.md
+```
 
 ---
 
