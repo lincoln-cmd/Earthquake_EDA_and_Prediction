@@ -61,15 +61,9 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 
 ---
 
-## 📂 폴더 구조 (Project Structure)
-
-📦 Earthquake_EDA_and_Prediction
-├── frontend/
-├── backend/
-├── docs/
-├── tests/
-├── .env.example
-└── README.md
+<pre><code>
+  ## 📂 폴더 구조 (Project Structure) <pre> 📦 Earthquake_EDA_and_Prediction ├── frontend/ ├── backend/ ├── docs/ ├── tests/ ├── .env.example └── README.md </pre>
+</code></pre>
 
 ---
 
@@ -86,7 +80,7 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 
 | 이름  | 역할       | GitHub                                 |
 | --- | -------- | -------------------------------------- |
-| 김동훈 | 팀장 / 백엔드 / 프론트엔드 / 데이터분석 / AI 모델링| [@lincoln](https://github.com/lincon-cmd)       |
+| 김동훈 | 팀장 / 백엔드 / 프론트엔드 / 데이터분석 / AI 모델링| [@lincoln](https://github.com/lincon-cmd/)       |
 |  |     |  |
 
 ---
@@ -97,9 +91,9 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 ---
 
 ## 🏁 배포 주소 (Deployment)
-Web URL: https://yourproject.netlify.app
+Web URL: 
 
-API Server: https://api.yourproject.com
+API Server: 
 
 ---
 
