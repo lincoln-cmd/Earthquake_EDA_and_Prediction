@@ -11,15 +11,15 @@ Earthquake EDA & Prediction
 ---
 
 ## 🖥️ 실행 화면 (Screenshots / Demos)
-> UI/기능 흐름을 보여주는 GIF나 이미지 삽입  
-> (예: `/assets/main-ui.png`)
+>   
+> 
 
 ---
 
 ## 🚀 실행 방법 (Getting Started)
 ```bash
 # 1. 레포지토리 클론
-git clone https://github.com/사용자명/레포.git
+git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 
 # 2. 의존성 설치
 
