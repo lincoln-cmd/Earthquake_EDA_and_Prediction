@@ -2,6 +2,7 @@
 
 Earthquake EDA & Prediction
 
+---
 
 ## 📁 프로젝트 개요 (Overview)
 - **목적:** 
@@ -25,3 +26,17 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 
 
 # 3. 실행
+
+---
+
+## ⚙️ 기술 스택 (Tech Stack)
+- 프론트엔드: 
+
+- 백엔드: 
+
+- DB: 
+
+- 기타:
+
+---
+
