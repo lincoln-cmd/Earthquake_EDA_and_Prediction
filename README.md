@@ -127,7 +127,7 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 ---
 
 ## 📌 프로젝트 일정 / 진척도 (Optional)
-- 
+- 2025.07.31 프로젝트 시작 (Project Start)
 
 ---
 
