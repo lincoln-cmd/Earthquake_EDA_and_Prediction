@@ -95,7 +95,7 @@ Coverage report:
 ---
 
 ## 📂 Project Structure
-
+```
 📦 Earthquake EDA & Prediction
 ├── frontend/
 ├── backend/
@@ -111,6 +111,7 @@ Coverage report:
 ├── README_kr.md
 ├── README_jp.md
 └── README.md
+```
 
 ---
 
@@ -147,4 +148,10 @@ API Server:
 
 ## 📄 License
 
-See [LICENSE] for details.
+See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🌐 Other Versions
+- [한국어](./README_kr.md)
+- [日本語](./README_jp.md)
