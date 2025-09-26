@@ -31,59 +31,60 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 # 2. Install dependencies
 
 # 3. Run
+```
 
 
 ---
 
 ## ⚙️ Tech Stack
 
-Frontend:
+- Frontend:
 
-Backend:
+- Backend:
 
-Database:
+- Database:
 
-Others:
-
----
-
-🧩 Core Features
-
-📊 Data Analysis & Preprocessing
-
-Automated earthquake data collection (USGS/NOAA)
-
-Outlier detection, missing value imputation, scaling
-
-EDA visualization tools (maps, time-series plots)
-
-🧠 AI-based Prediction Models
-
-Includes LSTM, Random Forest, XGBoost models
-
-Supports multi-variable learning (including geomagnetic & geothermal data)
-
-Model selection and hyperparameter tuning available
-
-📈 Visualization & Dashboard
-
-Real-time prediction results on interactive maps
-
-Color-coded risk levels
-
-Displays possible location, estimated magnitude, and probability
-
-🌐 Web Service & Alert System
-
-Built-in Django server (Flask/Vue optional)
-
-Real-time dashboard with notification system (email/push)
-
-Supports cloud or local deployment
+- Others:
 
 ---
 
-🧪 Testing
+## 🧩 Core Features
+
+📊 **Data Analysis & Preprocessing**
+
+- Automated earthquake data collection (USGS/NOAA)
+
+- Outlier detection, missing value imputation, scaling
+
+- EDA visualization tools (maps, time-series plots)
+
+🧠 **AI-based Prediction Models**
+
+- Includes LSTM, Random Forest, XGBoost models
+
+- Supports multi-variable learning (including geomagnetic & geothermal data)
+
+- Model selection and hyperparameter tuning available
+
+📈 **Visualization & Dashboard**
+
+- Real-time prediction results on interactive maps
+
+- Color-coded risk levels
+
+- Displays possible location, estimated magnitude, and probability
+
+🌐 **Web Service & Alert System**
+
+- Built-in Django server (Flask/Vue optional)
+
+- Real-time dashboard with notification system (email/push)
+
+- Supports cloud or local deployment
+
+---
+
+## 🧪 Testing
 
 Framework:
 
@@ -93,7 +94,7 @@ Coverage report:
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 📦 Earthquake EDA & Prediction
 ├── frontend/
@@ -113,9 +114,37 @@ Coverage report:
 
 ---
 
-📝 Documentation Links
+## 📝 Documentation Links
 
 -
 -
 -
 
+---
+
+## ✍️ Contributors
+
+| Name        | Role                                                                               | GitHub                                     |
+| ----------- | ---------------------------------------------------------------------------------- | ------------------------------------------ |
+| Donghun Kim | Lead / Backend / Frontend / Data Analysis / AI Modeling / Research / Documentation | [@lincoln](https://github.com/lincoln-cmd) |
+|             |                                                                                    |                                            |
+
+---
+
+## 📌 Timeline / Progress
+
+- 2025.07.31 Project Started
+
+---
+
+## 🏁 Deployment
+
+Web URL:
+
+API Server:
+
+---
+
+## 📄 License
+
+See [LICENSE] for details.
