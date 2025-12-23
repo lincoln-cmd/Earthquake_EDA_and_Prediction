@@ -108,6 +108,172 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 
 ---
 
+📁 Documentation_and_Visualizations/
+
+## 1.Planning/
+✅ 체크리스트
+
+- [ ] 1.0_Index_v1.0.md — 이 폴더 산출물 링크/목차
+- [ ] 1.1_ProjectCharter_v1.0.md — 범위/목표/KPI/일정/역할/리스크
+- [ ] 1.2_ProblemStatement_v1.0.md — 문제 정의(기존 한계, 해결방향)
+- [ ] 1.3_ScopeAndOutOfScope_v1.0.md — 포함/제외 범위(기능·데이터·지역·기간)
+- [ ] 1.4_StakeholdersAndUsers_v1.0.md — 타깃 사용자/기관/사용 시나리오
+- [ ] 1.5_Requirements_Functional_v1.0.md — 기능 요구사항(대시보드/알림/조회)
+- [ ] 1.6_Requirements_NonFunctional_v1.0.md — 비기능(성능, 지연, 가용성, 보안)
+- [ ] 1.7_RiskRegister_v1.0.xlsx — 리스크 목록/영향/대응(운영·법적·기술)
+- [ ] 1.8_TimelineAndMilestones_v1.0.md — 단계별 마일스톤/게이트 조건
+- [ ] 1.9_ResearchQuestionsAndHypotheses_v1.0.md — 연구질문/가설/검증 계획
+- [ ] 1.10_EthicsAndSafetyNotes_v1.0.md — 오탐/미탐 위험, 면책, 커뮤니케이션 원칙
+- [ ] (다이어그램) 1.11_SystemConceptDiagram_v1.0.png — 데이터→모델→대시보드→알림 개념도
+- [ ] (와이어프레임) 1.12_DashboardWireframe_v1.0.png — 대시보드 화면 초안
+
+---
+
+## 2.Analysis_and_Design/
+### A) 데이터/분석 설계
+
+- [ ] 2.0_Index_v1.0.md
+- [ ] 2.1_DataInventory_v1.0.xlsx — 데이터 소스/필드/단위/좌표계/주기/라이선스
+- [ ] 2.2_DataContract_v1.0.md — 스키마, 필수/옵션, 허용 범위, 시간대 규칙
+- [ ] 2.3_IngestionDesign_v1.0.md — 수집 방식(배치/실시간), 재시도/로깅/스냅샷 정책
+- [ ] 2.4_StorageLayoutSpec_v1.0.md — raw/clean/features/train 구조 및 네이밍 규칙
+- [ ] 2.5_DataQualityRules_v1.0.md — 결측/이상치/중복/범위/단위 검증 룰
+- [ ] 2.6_LeakageChecklist_v1.0.md — 데이터 누수 방지 체크리스트(시간 기준!)
+- [ ] 2.7_EDAPlan_v1.0.md — EDA 질문 목록/차트 목록/결과 기록 방식
+- [ ] 2.8_TargetDefinition_v1.0.md — 예측 과제 정의(공간단위/시간지평/임계값/라벨링)
+- [ ] 2.9_SplittingProtocol_v1.0.md — Train/Val/Test 시간 분할, walk-forward 계획
+- [ ] 2.10_EvaluationMetrics_v1.0.md — 분류/회귀 지표 + 운영지표(거짓경보율 등)
+- [ ] 2.11_FeatureSpec_v1.0.md — 피처 목록/윈도우/라그/공간집계 정의
+- [ ] (그림) 2.12_DataFlowDiagram_v1.0.png — 수집→저장→전처리→피처→학습 흐름도
+
+### B) 시스템/서비스 설계
+
+- [ ] 2.20_SystemArchitecture_v1.0.md — 컴포넌트(ETL/Model/API/Web) 설계
+- [ ] 2.21_API_Spec_v1.0.md — 엔드포인트, 요청/응답 스키마, 에러코드
+- [ ] 2.22_Dashboard_IA_UXSpec_v1.0.md — 정보구조/필터/지도 레이어/상세패널
+- [ ] 2.23_AlertPolicySpec_v1.0.md — 위험등급/임계값/알림 빈도 제한/중복 방지
+- [ ] 2.24_SecurityAndPrivacy_v1.0.md — 키 관리, 접근권한, 로그 보안(민감정보 최소화)
+- [ ] 2.25_OperationalSLO_v1.0.md — 응답시간/업데이트 주기/가용성 목표
+- [ ] (그림) 2.26_SequenceDiagram_PredictionToAlert_v1.0.png — 예측→등급→알림 시퀀스
+
+---
+
+## 3.Development/
+### A) 데이터 파이프라인 구현
+
+- [ ] 3.0_Index_v1.0.md
+- [ ] 3.1_DataIngestion_ImplementationNotes_v1.0.md — 수집 구현 상세/예외 처리
+- [ ] 3.2_DataValidation_ImplementationNotes_v1.0.md — 품질검증 구현 상세/테스트 방법
+- [ ] 3.3_PreprocessingPipeline_v1.0.md — 전처리 단계(결측/스케일링/리샘플)
+- [ ] 3.4_FeaturePipeline_v1.0.md — 피처 생성 파이프라인(재현성 보장)
+- [ ] (노트북) 3.5_EDA_Notebook_v1.0.ipynb
+- [ ] (요약) 3.5_EDA_Summary_v1.0.md — EDA 결과/인사이트/한계
+
+### B) 모델 개발/실험
+
+- [ ] 3.10_BaselineModels_v1.0.md — 베이스라인 정의/결과
+- [ ] 3.11_ModelTrainingPlan_v1.0.md — 실험 설계(동일 split/동일 지표)
+- [ ] 3.12_ExperimentLog_v1.0.xlsx — 실험ID/데이터버전/파라미터/성능/메모
+- [ ] 3.13_Model_RF_v1.0.md — RandomForest 학습/특이사항/결과
+- [ ] 3.14_Model_XGBoost_v1.0.md — XGBoost 학습/특이사항/결과
+- [ ] 3.15_Model_LSTM_v1.0.md — LSTM 학습/특이사항/결과
+- [ ] 3.16_HyperparameterTuningReport_v1.0.md
+- [ ] 3.17_ModelComparison_v1.0.md — 모델군 비교, 비용/성능 트레이드오프
+- [ ] 3.18_ModelCard_FinalCandidate_v1.0.md — 최종 후보 모델 카드(필수)
+- [ ] 3.19_ErrorAnalysis_v1.0.md — FP/FN 사례 분석, 개선안
+
+### C) 시각화 산출물(이미지/리포트)
+
+- [ ] (차트) 3.30_Charts_Missingness_v1.0.png
+- [ ] (차트) 3.31_Charts_Outliers_v1.0.png
+- [ ] (지도) 3.32_Map_EventDensity_v1.0.png
+- [ ] (지도) 3.33_Map_RiskLevel_Baseline_v1.0.png
+- [ ] (모델) 3.34_PR_ROC_Calibration_v1.0.png
+- [ ] 3.35_VisualizationCatalog_v1.0.md — 위 이미지/차트 설명과 생성방법 링크
+
+---
+
+## 4.Testing/
+✅ 체크리스트
+
+- [ ] 4.0_Index_v1.0.md
+- [ ] 4.1_TestStrategy_v1.0.md — 테스트 범위/우선순위(데이터/모델/서비스)
+- [ ] 4.2_DataPipeline_Tests_v1.0.md — 수집/검증/전처리 단위테스트 설계
+- [ ] 4.3_ModelValidationProtocol_v1.0.md — 시간기반 검증, 재현성 체크(시드/버전)
+- [ ] 4.4_PerformanceBenchmark_v1.0.md — 학습/추론 시간, 자원 사용량
+- [ ] 4.5_RobustnessChecks_v1.0.md — 데이터 공백, 노이즈, 분포 변화 시나리오
+- [ ] 4.6_CalibrationAndThresholding_v1.0.md — 확률 보정/임계값 선정 근거
+- [ ] 4.7_EndToEnd_TestReport_v1.0.md — ETL→예측→지도→알림 전체 흐름 테스트
+- [ ] 4.8_SecurityChecklist_v1.0.md — 키/환경변수/로그 점검
+- [ ] 4.9_TestResults_Summary_v1.0.md — 핵심 결과 요약(통과/미통과/리스크)
+
+권장 시각화
+
+- [ ] 4.20_Backtest_AlertSimulation_v1.0.png — 과거 구간 알림 시뮬레이션
+- [ ] 4.21_RegionwisePerformance_v1.0.png — 지역별 성능 편차 지도/차트
+
+---
+
+## 5.Deployment_and_Operation/
+✅ 체크리스트
+
+- [ ] 5.0_Index_v1.0.md
+- [ ] 5.1_DeploymentPlan_v1.0.md — 로컬/클라우드 배포 방식, 환경 구성
+- [ ] 5.2_InfrastructureDiagram_v1.0.png — 인프라 구성(서버/DB/스토리지)
+- [ ] 5.3_Runbook_v1.0.md — 장애 대응 절차(수집 실패/모델 실패/알림 폭주)
+- [ ] 5.4_MonitoringSpec_v1.0.md — 모니터링 항목(수집 지연/결측 급증/드리프트)
+- [ ] 5.5_LoggingAndAuditSpec_v1.0.md — 로그 정책, 보관 기간, 감사 추적
+- [ ] 5.6_ModelVersioningPolicy_v1.0.md — 모델 레지스트리/배포 승인 기준
+- [ ] 5.7_RetrainingPolicy_v1.0.md — 재학습 트리거(기간/드리프트/성능 저하)
+- [ ] 5.8_AlertOperationsPolicy_v1.0.md — 알림 운영(중복 방지, 야간 정책)
+- [ ] 5.9_SLA_SLO_Report_v1.0.md — 운영 목표 달성 현황 리포트(월간/분기)
+
+운영 대시보드 시각화
+
+- [ ] 5.20_Ops_Dashboard_PipelineHealth_v1.0.png
+- [ ] 5.21_Ops_Dashboard_DataDrift_v1.0.png
+- [ ] 5.22_Ops_Dashboard_AlertStats_v1.0.png
+
+---
+
+## 6.Closure_and_Documentation/
+✅ 체크리스트
+
+- [ ] 6.0_Index_v1.0.md
+- [ ] 6.1_FinalReport_v1.0.md — 목표 대비 성과/한계/향후 과제
+- [ ] 6.2_DecisionLog_v1.0.md — 주요 의사결정(타깃 정의 변경, 임계값 등)
+- [ ] 6.3_HandoverGuide_v1.0.md — 인수인계(실행/배포/재학습/모니터링)
+- [ ] 6.4_ReproducibilityGuide_v1.0.md — 데이터/코드/실험 재현 방법
+- [ ] 6.5_ArtifactManifest_v1.0.xlsx — 데이터 스냅샷/모델/리포트 목록(경로+해시)
+- [ ] 6.6_LessonsLearned_v1.0.md — 회고/개선점
+
+(연구/논문화 트랙)
+
+- [ ] 6.10_TechnicalReport_v1.0.pdf — 기술보고서(논문 형식에 가까운 버전)
+- [ ] 6.11_PaperDraft_v1.0.docx — 논문 초안(Introduction~Conclusion)
+- [ ] 6.12_Appendix_AblationStudies_v1.0.md — 변수 제거/민감도 분석 부록
+- [ ] 6.13_Appendix_EthicsAndLimitations_v1.0.md — 사회적 영향/한계 명시
+
+---
+
+## “바로 시작”용 최소 생성 세트(우선순위 Top 12)
+
+- [ ] 1.1_ProjectCharter_v1.0.md
+- [ ] 1.2_ProblemStatement_v1.0.md
+- [ ] 2.1_DataInventory_v1.0.xlsx
+- [ ] 2.2_DataContract_v1.0.md
+- [ ] 2.6_LeakageChecklist_v1.0.md
+- [ ] 2.8_TargetDefinition_v1.0.md
+- [ ] 2.9_SplittingProtocol_v1.0.md
+- [ ] 2.10_EvaluationMetrics_v1.0.md
+- [ ] 2.11_FeatureSpec_v1.0.md
+- [ ] 3.10_BaselineModels_v1.0.md
+- [ ] 3.18_ModelCard_FinalCandidate_v1.0.md
+- [ ] 5.3_Runbook_v1.0.md
+
+
+---
+
 ## 📝 문서 링크 (Docs)
 - 
 
