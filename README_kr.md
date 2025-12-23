@@ -124,7 +124,7 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 - [ ] 1.8_TimelineAndMilestones_v1.0.md — 단계별 마일스톤/게이트 조건
 - [ ] 1.9_ResearchQuestionsAndHypotheses_v1.0.md — 연구질문/가설/검증 계획
 - [ ] 1.10_EthicsAndSafetyNotes_v1.0.md — 오탐/미탐 위험, 면책, 커뮤니케이션 원칙
-- [ ] (다이어그램) 1.11_SystemConceptDiagram_v1.0.png — 데이터→모델→대시보드→알림 개념도
+- [v] (다이어그램) 1.11_SystemConceptDiagram_v1.0.png — 데이터→모델→대시보드→알림 개념도
 - [ ] (와이어프레임) 1.12_DashboardWireframe_v1.0.png — 대시보드 화면 초안
 
 ---
