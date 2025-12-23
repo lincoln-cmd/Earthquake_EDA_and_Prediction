@@ -114,17 +114,17 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 ✅ 체크리스트
 
 - [ ] 1.0_Index_v1.0.md — 이 폴더 산출물 링크/목차
-- [ ] 1.1_ProjectCharter_v1.0.md — 범위/목표/KPI/일정/역할/리스크
-- [ ] 1.2_ProblemStatement_v1.0.md — 문제 정의(기존 한계, 해결방향)
+- [x] 1.1_ProjectCharter_v1.0.md — 범위/목표/KPI/일정/역할/리스크
+- [x] 1.2_ProblemStatement_v1.0.md — 문제 정의(기존 한계, 해결방향)
 - [ ] 1.3_ScopeAndOutOfScope_v1.0.md — 포함/제외 범위(기능·데이터·지역·기간)
-- [ ] 1.4_StakeholdersAndUsers_v1.0.md — 타깃 사용자/기관/사용 시나리오
-- [ ] 1.5_Requirements_Functional_v1.0.md — 기능 요구사항(대시보드/알림/조회)
-- [ ] 1.6_Requirements_NonFunctional_v1.0.md — 비기능(성능, 지연, 가용성, 보안)
+- [x] 1.4_StakeholdersAndUsers_v1.0.md — 타깃 사용자/기관/사용 시나리오
+- [x] 1.5_Requirements_Functional_v1.0.md — 기능 요구사항(대시보드/알림/조회)
+- [x] 1.6_Requirements_NonFunctional_v1.0.md — 비기능(성능, 지연, 가용성, 보안)
 - [ ] 1.7_RiskRegister_v1.0.xlsx — 리스크 목록/영향/대응(운영·법적·기술)
-- [ ] 1.8_TimelineAndMilestones_v1.0.md — 단계별 마일스톤/게이트 조건
+- [x] 1.8_TimelineAndMilestones_v1.0.md — 단계별 마일스톤/게이트 조건
 - [ ] 1.9_ResearchQuestionsAndHypotheses_v1.0.md — 연구질문/가설/검증 계획
 - [ ] 1.10_EthicsAndSafetyNotes_v1.0.md — 오탐/미탐 위험, 면책, 커뮤니케이션 원칙
-- [v] (다이어그램) 1.11_SystemConceptDiagram_v1.0.png — 데이터→모델→대시보드→알림 개념도
+- [x] (다이어그램) 1.11_SystemConceptDiagram_v1.0.png — 데이터→모델→대시보드→알림 개념도
 - [ ] (와이어프레임) 1.12_DashboardWireframe_v1.0.png — 대시보드 화면 초안
 
 ---
@@ -144,7 +144,7 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 - [ ] 2.9_SplittingProtocol_v1.0.md — Train/Val/Test 시간 분할, walk-forward 계획
 - [ ] 2.10_EvaluationMetrics_v1.0.md — 분류/회귀 지표 + 운영지표(거짓경보율 등)
 - [ ] 2.11_FeatureSpec_v1.0.md — 피처 목록/윈도우/라그/공간집계 정의
-- [ ] (그림) 2.12_DataFlowDiagram_v1.0.png — 수집→저장→전처리→피처→학습 흐름도
+- [x] (그림) 2.12_DataFlowDiagram_v1.0.png — 수집→저장→전처리→피처→학습 흐름도
 
 ### B) 시스템/서비스 설계
 
