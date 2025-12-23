@@ -53,7 +53,7 @@ git clone https://github.com/lincoln-cmd/Earthquake_EDA_and_Prediction.git
 
 🧠 **AI 기반 예측 모델**
 - LSTM, Random Forest, XGBoost 기반 지진 예측 모델 포함
-- 자기장/지열 변화량 포함 다중 변수 학습 지원
+- 자기장/지열 변화량 포함 다중 변수 학습 지원 (+다중 신호 통합 모델 제안: 지자기 ULF, 지열 압력/온도, 지전류, 대기 이온화 등 다양한 모달리티를 통합한 다변량 머신러닝 모델 제안)
 - 모델 선택 및 하이퍼파라미터 조정 가능
 
 📈 **시각화 및 대시보드**
