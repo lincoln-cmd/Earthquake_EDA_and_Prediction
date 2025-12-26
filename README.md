@@ -16,6 +16,9 @@ This project aims to overcome the limitations of conventional earthquake predict
 
 **Target Users:** General public, geoscientists, public institutions, developers
 
+Notion: https://www.notion.so/Earthquake-EDA-and-Prediction-2d5c2fb07df980468423e9bf0ce1cb67
+ELN: https://mynotebook.labarchives.com/MTU3NTA4Ni41fDEyMTE2MDUvMTIxMTYwNS9Ob3RlYm9vay8yNDAzMTIyMzM2fDM5OTgyOTYuNQ==/page/11410843-1
+
 ---
 
 ## 🖥️ Screenshots / Demos
