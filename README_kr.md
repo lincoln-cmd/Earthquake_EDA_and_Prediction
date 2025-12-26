@@ -13,6 +13,9 @@
   - 웹 대시보드 및 경보 시스템 제공
 - **대상 사용자:** 일반 시민 사용자, 지질학 연구자, 공공기관, 개발자
 
+Notion: https://www.notion.so/Earthquake-EDA-and-Prediction-2d5c2fb07df980468423e9bf0ce1cb67
+전자연구노트(ELN): https://mynotebook.labarchives.com/MTU3NTA4Ni41fDEyMTE2MDUvMTIxMTYwNS9Ob3RlYm9vay8yNDAzMTIyMzM2fDM5OTgyOTYuNQ==/page/11410843-1
+
 ---
 
 ## 🖥️ 실행 화면 (Screenshots / Demos)
